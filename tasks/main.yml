@@ -1,2 +1,6 @@
 ---
 # tasks file for unzip
+
+- name: Install unzip package
+  yum: name=unzip state=present
+  tags: unzip
