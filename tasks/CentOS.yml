@@ -1,0 +1,6 @@
+---
+# tasks file for unzip (CentOS specific)
+
+- name: Install unzip package
+  yum: name=unzip state=present
+  tags: unzip

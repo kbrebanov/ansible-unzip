@@ -1,0 +1,6 @@
+---
+# tasks file for unzip (Ubuntu specific)
+
+- name: Install unzip package
+  apt: name=unzip state=present update_cache=yes
+  tags: unzip
