@@ -1,6 +1,7 @@
 ---
 # tasks file for unzip (CentOS specific)
 
-- name: Install unzip package
-  yum: name=unzip state=present
+- name: Install unzip packages
+  yum: name={{ item }} state=present
+  with_items: unzip_packages
   tags: unzip
