@@ -11,17 +11,22 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+None
+
 Dependencies
 ------------
+
+None
 
 Example Playbook
 ----------------
 
-1) Install unzip
-
-    - hosts: all
-      roles:
-         - { role: unzip }
+Install unzip
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.unzip }
+```
 
 License
 -------
