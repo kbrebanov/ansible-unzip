@@ -1,7 +1,7 @@
 unzip
 =====
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.unzip-660198.svg)](https://galaxy.ansible.com/list#/roles/3295)
+[![Ansible Role](https://img.shields.io/ansible/role/3295.svg)](https://galaxy.ansible.com/list#/roles/3295)
 
 Installs unzip.
 
