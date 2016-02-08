@@ -1,7 +1,7 @@
 unzip
 =====
 
-[![Ansible Role](https://img.shields.io/ansible/role/3295.svg)](https://galaxy.ansible.com/list#/roles/3295)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-unzip.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-unzip)
 
 Installs unzip.
 
