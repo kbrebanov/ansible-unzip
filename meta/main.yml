@@ -125,13 +125,14 @@ galaxy_info:
   #  versions:
   #  - all
   #  - any
-  #- name: Debian
-  #  versions:
-  #  - all
+  - name: Debian
+    versions:
+     - wheezy
+     - jessie
+  # - all
   #  - etch
   #  - lenny
   #  - squeeze
-  #  - wheezy
 
   galaxy_tags:
     - system
@@ -142,7 +143,7 @@ galaxy_info:
   #
   # NOTE: A tag is limited to a single word comprised of
   # alphanumeric characters. Maximum 20 tags per role.
-  
+
 dependencies: []
   # List your role dependencies here, one per line. Only
   # dependencies available via galaxy should be listed here.
