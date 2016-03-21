@@ -3,5 +3,5 @@
 
 - name: Install unzip packages
   yum: name={{ item }} state=present
-  with_items: unzip_packages
+  with_items: "{{ unzip_packages }}"
   tags: unzip
