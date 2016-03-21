@@ -3,5 +3,5 @@
 
 - name: Install unzip packages
   apt: name={{ item }} state=present update_cache=yes
-  with_items: unzip_packages
+  with_items: "{{ unzip_packages }}"
   tags: unzip
