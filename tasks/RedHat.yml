@@ -1,0 +1,7 @@
+---
+# tasks file for unzip (RedHat specific)
+
+- name: Install unzip packages
+  yum: name={{ item }} state=present
+  with_items: unzip_packages
+  tags: unzip
