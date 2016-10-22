@@ -2,6 +2,12 @@
 # tasks file for unzip (Ubuntu specific)
 
 - name: Install unzip packages
-  apt: name={{ item }} state=present update_cache=yes
-  with_items: "{{ unzip_packages }}"
-  tags: unzip
+  become: yes
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+    state: present
+  with_items:
+    - "{{ unzip_packages }}"
+  tags:
+    - unzip
